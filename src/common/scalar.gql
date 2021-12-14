@@ -1,0 +1,2 @@
+"An ISO-8601 encoded date string."
+scalar Date
