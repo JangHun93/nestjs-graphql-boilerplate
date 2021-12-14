@@ -38,3 +38,6 @@ lerna-debug.log*
 
 # environment files
 .env
+
+# NestJS
+src/types/graphql.schema.ts
