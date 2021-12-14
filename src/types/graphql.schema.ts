@@ -16,7 +16,8 @@ export class UpdateUserInput {
 }
 
 export class User {
-    exampleField?: Nullable<number>;
+    email?: Nullable<string>;
+    username?: Nullable<string>;
 }
 
 export abstract class IQuery {

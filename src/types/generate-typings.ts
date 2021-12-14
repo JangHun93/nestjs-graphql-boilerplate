@@ -8,8 +8,8 @@ definitionsFactory.generate({
   typePaths: ['./src/**/*.(gql|graphql)'],
   path: join(process.cwd(), 'src/types/graphql.schema.ts'),
   outputAs: 'class',
-  //   watch: true,
-  //   defaultScalarType: 'Date',
-  //   enumsAsTypes: false,
-  //   debug: true,
+  watch: true,
+  defaultScalarType: 'Date',
+  enumsAsTypes: false,
+  debug: true,
 });
