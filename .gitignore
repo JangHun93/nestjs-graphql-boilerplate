@@ -40,4 +40,4 @@ lerna-debug.log*
 .env
 
 # NestJS
-src/types/graphql.schema.ts
+/src/types/graphql.schema.ts
